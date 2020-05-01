@@ -1,0 +1,130 @@
+body {
+  /*width: 800px;*/
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+fieldset {
+  display: block;
+  margin-top: 15%
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0em;
+  -webkit-padding-start: 0em;
+  -webkit-padding-end: 0em;
+  -webkit-padding-after: 0em;
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  min-width: -webkit-min-content;
+  padding: 30px;
+}
+.ghost-input, p {
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+  margin: 30px 0px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.ghost-input:focus {
+  border-bottom:1px solid #ddd;
+}
+.ghost-button {
+  background-color: transparent;
+  border:2px solid #ED5565;
+  padding:10px 30px;
+  width: 100%;
+  min-width: 350px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.ghost-button:hover {
+  border:2px solid #ED5565;
+  cursor:pointer;
+  color:white;
+  text-shadow:0 0 12px white;
+  background-color: #ED5565;
+}
+p {
+  color: #E61A19;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ED5565;
+  color: white;
+  text-align: center;
+  height:40px;
+}
+.footer> h3 {
+	background-color: #ED5565;
+	font-size:0.8em;
+	color:white;
+	text-align:right;
+	margin-right:20px;
+}
+.footer a{
+	text-decoration:none;
+	color:white;
+	cursor:pointer;
+	transition: all 0.5s ease-in-out;
+}
+.footer a:hover{
+	text-decoration:underline;
+	color:rgba(255,255,255,0.8);
+	cursor:pointer;
+	transition: all 0.5s ease-in-out;
+}
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #ED5565;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+
