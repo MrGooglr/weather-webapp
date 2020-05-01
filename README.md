@@ -7,3 +7,8 @@ A webapp created using *nodejs,ejs,expressjs and openweathermap API* which shows
 2. Go to the directory and type `$node server.js`
 3. Enter http://localhost:3000
 4. WebApp will be running.
+
+
+# Snipp (as of 01-May-2020)
+
+![Weather App](https://i.imgur.com/cWzG8We.png)
