@@ -1,7 +1,8 @@
 //ExpressJS is required as the governing app server
 const express = require('express');
 const request = require('request');
-const apiKey = '99ffb517c100c696e376d7f08d0d7545';
+//Enter your API Key Here (from openweathermap)
+const apiKey = '##########################';
 const port =  3000;
 //Middleware of expressjs
 const bodyParser = require('body-parser');
